@@ -7,7 +7,7 @@ const Filter = () => {
   const dispatch = useDispatch();
   const handleChangeFilter = e => {
     const inputValue = e.target.value.toLowerCase();
-    dispatch(filterContact(inputValue));
+    // dispatch(filterContact(inputValue));
   };
 
   return (
