@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './Filter.module.css';
-import { useDispatch } from 'react-redux';
-import { filterContact } from 'redux/actions';
+// import { useDispatch } from 'react-redux';
+// import { filterContact } from 'redux/actions';
 
 const Filter = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const handleChangeFilter = e => {
-    const inputValue = e.target.value.toLowerCase();
+    // const inputValue = e.target.value.toLowerCase();
     // dispatch(filterContact(inputValue));
   };
 
