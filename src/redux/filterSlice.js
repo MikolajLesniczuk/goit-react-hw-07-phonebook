@@ -1,16 +1,11 @@
 const { createSlice } = require('@reduxjs/toolkit');
-const { statusFilters } = require('./const');
-
-const filterState = {
-  status: statusFilters,
-};
 
 const filtersSlice = createSlice({
   name: 'filters',
-  initialState: filterState,
+  initialState: '',
   reducers: {
     setStatusFilter(state, action) {
-      state.status = action.payload;
+      return action.payload.toLowerCase();
     },
   },
 });

@@ -1,7 +1,6 @@
-import { nanoid } from 'nanoid';
 import React, { useState } from 'react';
 import s from './ConatctForm.module.css';
-
+import { nanoid } from 'nanoid';
 import { useDispatch } from 'react-redux';
 import { addContacts } from 'redux/actions';
 
